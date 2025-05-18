@@ -11,7 +11,7 @@ const Adapter = createEntityAdapter<entitiesBooks>();
 export const fetchBooks = createAsyncThunk(
   "fetchBooks",
   async ({ categoria, startIndex }: { categoria: string; startIndex: number }) => {
-    const url = `http://localhost:3000/api/googleBooks?subject=${categoria}&startIndex=${startIndex}`;
+    const url = `/api/googleBooks?subject=${categoria}&startIndex=${startIndex}`;
     
     try {
       const response = await fetch(url);

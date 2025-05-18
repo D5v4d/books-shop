@@ -9,16 +9,16 @@ export const metadata = {
   openGraph: {
     title: "Bookshop",
     description: "Широкий выбор книг по архитектуре. Купите онлайн с доставкой.",
-    url: "http://localhost:3000",
+    url: "https://books-shop-henna.vercel.app",
     type: "website",
   },
   alternates: {
-    canonical: "http://localhost:3000",
+    canonical: "https://books-shop-henna.vercel.app",
   },
 };
 
 async function fetchBooksArchitectur() {
-  const url = `http://localhost:3000/api/googleBooks?subject=Architecture&startIndex=0`;
+  const url = `https://books-shop-henna.vercel.app/api/googleBooks?subject=Architecture&startIndex=0`;
 
   try {
     const response = await fetch(url);

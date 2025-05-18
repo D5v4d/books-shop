@@ -8,11 +8,11 @@ export const metadata = {
   openGraph: {
     title: "Сart",
     description: "Корзина",
-    url: "http://localhost:3000/cart",
+    url: "https://books-shop-henna.vercel.app/cart",
     type: "website",
   },
   alternates: {
-    canonical: "http://localhost:3000/cart",
+    canonical: "https://books-shop-henna.vercel.app/cart",
   },
 };
 

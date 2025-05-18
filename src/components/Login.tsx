@@ -6,7 +6,7 @@ import { addToken, tokensActive, upActiveLogin } from '../redux/slice/authorizat
 import { upToken } from '../redux/slice/basketSlice';
 
 async function fetchLogin(email: string, password: string) {
-  const url = `http://localhost:3000/api/auth`;
+  const url = `/api/auth`;
 
   try {
     const response = await fetch(url, {

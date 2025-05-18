@@ -7,11 +7,11 @@ export const metadata = {
   openGraph: {
     title: "Profile",
     description: "Личный кабинет.",
-    url: "http://localhost:3000/profile",
+    url: "https://books-shop-henna.vercel.app/profile",
     type: "website",
   },
   alternates: {
-    canonical: "http://localhost:3000/profile",
+    canonical: "https://books-shop-henna.vercel.app/profile",
   },
 };
 
